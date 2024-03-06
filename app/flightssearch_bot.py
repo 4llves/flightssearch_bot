@@ -14,7 +14,7 @@ app = Client(
 @app.on_message(filters.command('help'))
 async def help(client, message):
     print(message.chat.username, message.text)
-    await message.reply(        
+    await message.reply(
         'Lista de comandos: '
         '''
             /chat_id para capturar o id do chat e usar na API
