@@ -14,7 +14,7 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # port
-EXPOSE 8080
+EXPOSE 8443
 
 # Define the entry point for the container
 CMD ["python", "app/flightssearch_bot.py"]
