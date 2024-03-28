@@ -9,7 +9,7 @@ def get_test_server():
   return json.dumps(test_server)
 
 def start_server():
-  api.run(port=3000)
+  api.run(host='0.0.0.0', port=3000)
 
 if __name__ == '__main__':
   start_server()
