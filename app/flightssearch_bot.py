@@ -13,7 +13,7 @@ app = Client(
 
 @app.on_message(filters.command('help'))
 async def help(client, message):
-    print(message.chat.username, message.text)
+    print('Recebendo dados... 👌')
     await message.reply(
         'Lista de comandos: '
         '''
