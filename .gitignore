@@ -1,3 +1,4 @@
 .env
 flightssearch_bot.session
 flightssearch_bot.session-journal
+flightssearch_bot_test.py
